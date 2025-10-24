@@ -6,20 +6,7 @@ export default function About() {
     <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30 transition-colors duration-300">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Left side - Image placeholder */}
-          {/* <div className="relative group">
-            <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-2xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-300" />
-            <div className="relative bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl p-8 border border-border/50 group-hover:border-primary/50 transition-all duration-300 h-96 flex items-center justify-center">
-             
-              <div className="text-center">
-                <div className="text-6xl font-bold text-primary/30 mb-4">👨‍💻</div>
-                <p className="text-muted-foreground">Your photo here</p>
-              </div>
-
-
-            </div>
-          </div> */}
-
+          
           {/* Left side - Image */}
 <div className="relative group">
   <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-2xl blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-300" />
@@ -42,12 +29,10 @@ export default function About() {
           <div>
             <h2 className="text-4xl font-bold mb-6">About Me</h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              I'm a passionate full-stack developer with 5+ years of experience building scalable web applications. I
-              love turning complex problems into simple, beautiful, and intuitive designs.
+              hey! this is Naeem Sarker, a passionate full-stack developer who builds modern, responsive web apps using React, Node.js, and Tailwind. 
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or
-              sharing knowledge with the developer community.
+              I love turning ideas into real projects, solving problems with clean code, and continuously learning to grow as a developer. My goal is simple: create impactful software and keep improving every day.
             </p>
 
             {/* Stats */}
