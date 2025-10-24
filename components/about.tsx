@@ -53,9 +53,9 @@ export default function About() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4 mb-8">
               {[
-                { number: "50+", label: "Projects" },
-                { number: "30+", label: "Clients" },
-                { number: "5+", label: "Years Exp" },
+                { number: "10+", label: "Projects" },
+                { number: "5+", label: "Clients" },
+                { number: "1+", label: "Years Exp" },
               ].map(({ number, label }) => (
                 <div
                   key={label}
