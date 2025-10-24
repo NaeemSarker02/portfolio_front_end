@@ -56,10 +56,10 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Follow Me</h4>
             <div className="flex gap-3">
               {[
-                { icon: Github, href: "https://github.com" },
-                { icon: Linkedin, href: "https://linkedin.com" },
-                { icon: Twitter, href: "https://twitter.com" },
-                { icon: Mail, href: "mailto:hello@example.com" },
+                { icon: Github, href: "https://https://github.com/naeemsarker02.com" },
+                { icon: Linkedin, href: "https://https://www.linkedin.com/in/naeemsarker02.com" },
+                { icon: Twitter, href: "https://x.com/naeemsarker02" },
+                { icon: Mail, href: "mailto:naeemsarker202@gmail.com" },
               ].map(({ icon: Icon, href }) => (
                 <Link
                   key={href}
