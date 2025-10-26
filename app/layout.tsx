@@ -9,9 +9,11 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif" })
 
 export const metadata: Metadata = {
-  title: "Full-Stack Developer Portfolio",
+  title: "Naeem Sarkers Portfolio",
   description: "Professional portfolio showcasing full-stack development projects",
 }
+
+
 
 export default function RootLayout({
   children,
@@ -27,6 +29,8 @@ export default function RootLayout({
         </ThemeProvider>
         <Analytics />
       </body>
+
+
     </html>
   )
 }
